@@ -425,7 +425,7 @@ PrefabInstance:
     - target: {fileID: 7174019212652907432, guid: 77ac6b10722bcca4a8baf70e44d89e78,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.18
       objectReference: {fileID: 0}
     - target: {fileID: 7174019212652907432, guid: 77ac6b10722bcca4a8baf70e44d89e78,
         type: 3}
@@ -471,6 +471,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: XR Origin Hands (XR Rig) MP Template Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7174019212652907435, guid: 77ac6b10722bcca4a8baf70e44d89e78,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7236287184081664708, guid: 77ac6b10722bcca4a8baf70e44d89e78,
         type: 3}
@@ -1974,6 +1979,26 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1149903581173863409, guid: 0267a1d338db2bf4c9625e450bbaaad0,
         type: 3}
+      propertyPath: m_LobbyManager
+      value: 
+      objectReference: {fileID: 2049695966}
+    - target: {fileID: 1149903581173863409, guid: 0267a1d338db2bf4c9625e450bbaaad0,
+        type: 3}
+      propertyPath: scenes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149903581173863409, guid: 0267a1d338db2bf4c9625e450bbaaad0,
+        type: 3}
+      propertyPath: m_VoiceChatManager
+      value: 
+      objectReference: {fileID: 2049695964}
+    - target: {fileID: 1149903581173863409, guid: 0267a1d338db2bf4c9625e450bbaaad0,
+        type: 3}
+      propertyPath: m_AuthenticationManager
+      value: 
+      objectReference: {fileID: 2049695965}
+    - target: {fileID: 1149903581173863409, guid: 0267a1d338db2bf4c9625e450bbaaad0,
+        type: 3}
       propertyPath: objectsToEnableOnline.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -2111,6 +2136,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fallbackDatabaseUrl: https://avatarsvr-ddb1c-default-rtdb.firebaseio.com
+--- !u!114 &2049695964 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1582222677943591994, guid: 0267a1d338db2bf4c9625e450bbaaad0,
+    type: 3}
+  m_PrefabInstance: {fileID: 2049695959}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049695960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef0c7cbc48b68dd40923508f2547cc98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2049695965 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3763782728091630267, guid: 0267a1d338db2bf4c9625e450bbaaad0,
+    type: 3}
+  m_PrefabInstance: {fileID: 2049695959}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049695960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a23511cff0c072e4fb042675bd9c0fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2049695966 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2808410049059023866, guid: 0267a1d338db2bf4c9625e450bbaaad0,
+    type: 3}
+  m_PrefabInstance: {fileID: 2049695959}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049695960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fc9ddf205bd8784da3ae5681e15741d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
