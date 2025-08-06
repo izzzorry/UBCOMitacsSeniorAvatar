@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1076583399375",
+    "firebase_url": "https://avatarsvr-ddb1c-default-rtdb.firebaseio.com",
+    "project_id": "avatarsvr-ddb1c",
+    "storage_bucket": "avatarsvr-ddb1c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076583399375:android:2fd2effb53d9753fec5cba",
+        "android_client_info": {
+          "package_name": "com.ubcomitacs.avatarsvr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-zpTTOUIr-BWr9Yrb-eyD8iqB2rY_Z7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
